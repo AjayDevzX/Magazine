@@ -32,10 +32,6 @@ body {
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  -moz-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -o-text-fill-color: transparent;
-  -o-background-clip: text;
 }
 
 .navbar a {
@@ -56,10 +52,10 @@ body {
 .imagehover {
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 .imagehover:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
